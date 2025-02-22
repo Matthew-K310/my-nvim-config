@@ -72,8 +72,8 @@ return {
 
       -- See `:help telescope.builtin`
       local builtin = require 'telescope.builtin'
-      vim.api.nvim_set_hl(0, 'TelescopeNormal', { bg = 'NONE' })
-      vim.api.nvim_set_hl(0, 'TelescopeBorder', { fg = 'NONE' })
+      -- vim.api.nvim_set_hl(0, 'TelescopeNormal', { bg = 'NONE' })
+      -- vim.api.nvim_set_hl(0, 'TelescopeBorder', { fg = 'NONE' })
       vim.keymap.set('n', '<leader>sk', builtin.keymaps, { desc = '[S]earch [K]eymaps' })
       vim.keymap.set('n', '<leader>sf', builtin.find_files, { desc = '[S]earch [F]iles' })
       vim.keymap.set('n', '<leader>ss', builtin.builtin, { desc = '[S]earch [B]uiltin' })
